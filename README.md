@@ -16,7 +16,7 @@ I made the shell function **catcrypt** to decrypt, get the content of the file t
 
 # Usage
 
-Just add this code in your file **~/.bashrc** and restart your terminal or use $ source ~/.bashrc
+Just add this code in your file **~/.bashrc** (if this file doesn't exist create it with $ touch ~/.bashrc) and restart your terminal or use $ source ~/.bashrc
 
 ```
 # decrypt netCDF, read and delete
@@ -36,3 +36,4 @@ $ catcrypt data.txt.nc
 ```
 
 it will print in your terminal the content decrypted of data.txt.nc
+b
